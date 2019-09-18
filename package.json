@@ -1,0 +1,23 @@
+{
+  "name": "docker-laravel",
+  "version": "1.0.0",
+  "description": "## Setup ``` cd laradock docker-compose up -d nginx mysql docker-compose exec workspace bash ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hashiguchip/docker-laravel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hashiguchip/docker-laravel/issues"
+  },
+  "homepage": "https://github.com/hashiguchip/docker-laravel#readme",
+  "devDependencies": {
+    "@prettier/plugin-php": "^0.11.2",
+    "prettier": "^1.18.2"
+  }
+}
